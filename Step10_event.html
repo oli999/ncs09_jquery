@@ -15,10 +15,17 @@
     <script>
 
         //문서 로딩이 완료 되었을때 호출되는 함수 등록
-        $(document).ready(function(){
+        // $(document).ready(function(){
+        //     $("p").click(function(){
+        //         alert($(this).text());
+        //     });     
+        // });
+
+        //위의 코드는 아래와 같이 작성해도 된다.
+        $(function(){
             $("p").click(function(){
                 alert($(this).text());
-            });     
+            }); 
         });
     </script>
 </head>
